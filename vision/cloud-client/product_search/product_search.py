@@ -94,6 +94,7 @@ def get_similar_products_file(
             product.display_name))
         print('Product description: {}\n'.format(product.description))
         print('Product labels: {}\n'.format(product.product_labels))
+    return results
 # [END vision_product_search_get_similar_products]
 
 
@@ -156,6 +157,7 @@ def get_similar_products_uri(
             product.display_name))
         print('Product description: {}\n'.format(product.description))
         print('Product labels: {}\n'.format(product.product_labels))
+    return results
 # [END vision_product_search_get_similar_products_gcs]
 
 
